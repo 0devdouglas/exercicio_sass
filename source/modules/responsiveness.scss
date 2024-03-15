@@ -1,0 +1,27 @@
+@media screen and (max-width: 1023px) {
+    body .container {
+        width: 80%;    
+
+        .products {
+            grid-template-columns: repeat(2, 48.5%);
+            column-gap: 3%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    section {
+
+        .container {
+
+            .products {
+                display: block;
+
+                .product-item {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
